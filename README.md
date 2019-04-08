@@ -1,0 +1,2 @@
+# Virtual-drum
+I use mpu6050 on drumsticks for sampling acceleration and gyro data, i send data from nodemcu to pc whit websocket protcol. On the pc i use Processing to clean noise and creat the interface used for visualize data. After cleaning the noise I use a decision tree to classify the movements of the sensor. After classification of the movement, pc emits the sound of the right percussion insturment.
